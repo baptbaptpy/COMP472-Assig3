@@ -1,0 +1,19 @@
+In the folder, you can find a pdf named "performances.pdf". It's a bar chart with the accuracy of the 5 models we used with Gensim,
+the accuracy of the random baseline and the human gold-standard accuracy.
+
+We can see the model with the poorest performance is the random baseline. Indeed, it has an accuracy of a about 1/3.
+This result is logical. For this model, we randomly select the answer. As there are three choices. There is 1/3 probability that
+the random prediction is the actual answer. Therefore, the expected accuracy is around 1/3.
+
+The best models are those who have an embedding-size of 300. The two best models come from Wikipedia. This result was expected.
+Indeed, Wikipedia is an encyclopedia. Therefore, the sentences in the wiki corpus are grammaticaly excellent. 
+The word2vec google news model comes from a corpus of newspaper articles so the sentences are also grammaticaly perfect.
+
+The worst models come from Twitter. Even if the embedding size is smaller, the performances are poor. These can be explained
+by the fact that the sentences on Twitter are not grammaticaly correct for most of the tweets. Tweets are for most of them 
+texts you write in few secondes to tell about how you feel about something. So the grammar in tweets is not a big concern.
+That would explain the poor accuracy of the two models, even if the embedding size is smaller than the other models.
+
+For the human gold-standard performance, it comes from the survey we answered for the mini-project. This survey counts in the final
+mark so every students answered it with lot of attention. I think that explain why the accuracy is high. Otherwise, I think it 
+would have been a bit lower.  
