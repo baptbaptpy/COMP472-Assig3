@@ -1,6 +1,6 @@
 # COMP472-Assig3
 
-COMP 472 - Artificial Intelligence : Assigment 1
+COMP 472 - Artificial Intelligence : Assigment 3
 
 by Baptiste Lemaire, id : 40216482
 
